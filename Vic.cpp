@@ -8,56 +8,57 @@ int main(){
     
     std::string name;
     std::cin >> name;
-
     std::cout << "Haiiiiii " << name << " :3\n\n";
-  
+
     int WhatIsVicGonnaSay = rand() % 10 + 1;
-   while(0 == 0){
-        switch(WhatIsVicGonnaSay){
-            
-            case 1:
+    while(0 == 0)
+    {
+    switch(WhatIsVicGonnaSay)
+        {
+        
+        case 1:
             std::cout <<"Love you pookie bear :3\n";
-            break;
+        break;
 
-            case 2:
+        case 2:
             std::cout <<"I am so swagged up rn\n";
-            break;
+        break;
 
-            case 3:
+        case 3:
             std::cout <<"no?\n";
-            break;
+        break;
 
-            case 4:
+        case 4:
             std::cout <<"YIPPEE\n";
-            break;
+        break;
 
-            case 5:
+        case 5:
             std::cout <<"FUCK YOU\n";
-            break;
+        break;
 
-            case 6:
+        case 6:
             std::cout <<"i love you\n";
-            break;
-             
-            case 7:
+        break;
+
+        case 7:
             std::cout <<"god sake\n";
-            break;
+        break;
 
-            case 8:
+        case 8:
             std::cout <<"SENJHRFTUIOJSTHSRJ\n";
-            break;
+        break;
 
-            case 9:
+        case 9:
             std::cout <<"uhhhh idk\n";
-            break;
+        break;
 
-            case 10:
+        case 10:
             std::cout <<"i had computer science and imedia\n";
-            break;
-
+        break;
         }
+
         Sleep(1000);
         WhatIsVicGonnaSay = rand() % 10 + 1;
         // std::cout << WhatIsVicGonnaSay << std::endl; incase of bug testing :P
-   }
+    }
 }
